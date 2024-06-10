@@ -9,7 +9,7 @@ This repository contains a Google Colab notebook for calculating the net charge 
   - Email: mcathcarth@gmail.com
   - GitHub: [mcathcarth](https://github.com/mcathcarth)
     
-**Version:** 1.1
+**Version:** 1.0
     
 **Date:** Jun 10, 2024
     

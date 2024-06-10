@@ -1,2 +1,58 @@
 # Protein_charge_pI_calculator
-Google Colab notebook to calculate the net charge and isoelectric point (pI) of proteins from user-provided PDB codes.
+This repository contains the Google Colab notebook for calculating the net charge and isoelectric point (pI) of proteins from user-provided PDB codes.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+# Protein Charge and Isoelectric Point Calculator
+
+**Author:** Marilina Cathcarth
+  - Email: mcathcarth@gmail.com
+  - GitHub: [mcathcarth](https://github.com/mcathcarth)
+    
+**Version:** 1.1
+    
+**Date:** Jun 10, 2024
+    
+**Description:** This script calculates the net charge and isoelectric point (pI) of proteins based on their sequences extracted from PDB files. The net charge of each protein is computed over a specified pH range, and the data is saved and visualized.
+
+## Dependencies:
+
+The script uses the following Python libraries:
+
+- [Biopython](https://biopython.org/) (Bio) - Licensed under the Biopython License Agreement (BPLA)
+- [NumPy](https://numpy.org/) - Licensed under the BSD License
+- [Matplotlib](https://matplotlib.org/) - Licensed under the BSD License
+- [requests](https://docs.python-requests.org/en/latest/) - Licensed under the Apache License 2.0
+
+## Usage Instructions
+
+1.  **Open the Colab Notebook:** Open the provided Colab notebook file.
+    
+2.  **Modify Input Parameters:**
+    
+    *   Update the `pdb_codes` list with the [PDB](https://www.rcsb.org/) codes of the proteins you want to analyze.
+        
+    *   Optionally, provide user names (`usr_names`) and number of chains (`usr_nc`) if needed.
+        
+    *   Set the parameters for `pH_start`, `pH_end`, `pH_step`, and `target_pH` as per your requirements.
+        
+3.  **Run Each Cell Sequentially:** Ensure that you run each cell in order, as some cells depend on the outputs or definitions from previous cells.
+    
+4.  **View Results:** After running the final cell, view the output which includes the isoelectric point (pI) and the net charge of each protein at the target pH. Additionally, a plot showing the net charge vs. pH will be generated and saved.
+
+
+### Example Parameters
+
+*   `pdb_codes`: A list of PDB codes for the proteins to analyze (e.g., ["4F5S", "1CF3", "1OVA"]).
+    
+*   `usr_names`: Optional list of user-provided names for the proteins.
+    
+*   `usr_nc`: Optional list of the number of chains to consider for each protein.
+    
+*   `pH_start`: Starting pH value for the range (e.g., 3.0).
+    
+*   `pH_end`: Ending pH value for the range (e.g., 10.0).
+    
+*   `pH_step`: Step size for the pH range (e.g., 0.1).
+    
+*   `target_pH`: Specific pH value at which to calculate the net charge (e.g., 7.4).

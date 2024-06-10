@@ -1,7 +1,7 @@
 # Protein_charge_pI_calculator
 This repository contains a Google Colab notebook for calculating the net charge and isoelectric point (pI) of proteins from user-provided PDB codes.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mcathcarth/Protein_charge_pI_calculator/blob/main/Protein-Charge_Isoelectric-Point_Calculator.ipynb)
 
 # Protein Charge and Isoelectric Point Calculator
 

@@ -15,6 +15,14 @@ This repository contains a Google Colab notebook for calculating the net charge 
     
 **Description:** This script calculates the net charge and isoelectric point (pI) of proteins based on their sequences extracted from PDB files. The net charge of each protein is computed over a specified pH range, and the data is saved and visualized.
 
+## Citation
+
+If you use this tool in your research, please cite this repository using the following DOI:
+
+[https://doi.org/10.5281/zenodo.11553881](https://doi.org/10.5281/zenodo.11553881)
+
+For citation in various formats, please visit the DOI link.
+
 ## Dependencies:
 
 The script uses the following Python libraries:
@@ -66,10 +74,3 @@ The script uses the following Python libraries:
 *   `pH_step`: Step size for the pH range (e.g., 0.1).
     
 *   `target_pH`: Specific pH value at which to calculate the net charge (e.g., 7.4).
-
-
-## Citation
-
-If you use this tool in your research, please cite this repository as:
-
-M. Cathcarth, Protein Charge and Isoelectric Point Calculator [Internet]. v1.0. GitHub; 2024. Available from: https://github.com/mcathcarth/Protein_charge_pI_calculator

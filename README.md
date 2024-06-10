@@ -26,7 +26,7 @@ The script uses the following Python libraries:
 
 ## Usage Instructions
 
-1.  **Open the Colab Notebook:** Open the provided Colab notebook file.
+1.  **Open the Colab Notebook:** Click on the "Open In Colab" badge above to open the notebook directly in Google Colab.
     
 2.  **Modify Input Parameters:**
     
@@ -37,8 +37,18 @@ The script uses the following Python libraries:
     *   Set the parameters for `pH_start`, `pH_end`, `pH_step`, and `target_pH` as per your requirements.
         
 3.  **Run Each Cell Sequentially:** Ensure that you run each cell in order, as some cells depend on the outputs or definitions from previous cells.
-    
+  
 4.  **View Results:** After running the final cell, view the output which includes the isoelectric point (pI) and the net charge of each protein at the target pH. Additionally, a plot showing the net charge vs. pH will be generated and saved.
+
+5.  **Save Your Work:**
+
+    *   To save your changes, you can either:
+    
+      -   Download the notebook to your local machine: `File -> Download .ipynb`
+
+      -   Save a copy to your Google Drive: `File -> Save a copy in Drive`
+  
+6.  **Note:** Any changes you make in Google Colab will not affect the original notebook in this GitHub repository. Each user works on their own copy of the notebook.
 
 
 ### Example Parameters

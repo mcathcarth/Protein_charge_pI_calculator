@@ -44,9 +44,9 @@ The script uses the following Python libraries:
 
     *   To save your changes, you can either:
     
-      -   Download the notebook to your local machine: `File -> Download .ipynb`
+        -   Download the notebook to your local machine: `File -> Download .ipynb`
 
-      -   Save a copy to your Google Drive: `File -> Save a copy in Drive`
+        -   Save a copy to your Google Drive: `File -> Save a copy in Drive`
   
 6.  **Note:** Any changes you make in Google Colab will not affect the original notebook in this GitHub repository. Each user works on their own copy of the notebook.
 

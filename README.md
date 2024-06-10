@@ -72,5 +72,4 @@ The script uses the following Python libraries:
 
 If you use this tool in your research, please cite this repository as:
 
-[Cathcarth Marilina]. (2024). Protein Charge and Isoelectric Point Calculator [GitHub repository]. Retrieved from https://github.com/mcathcarth/Protein_charge_pI_calculator
-
+M. Cathcarth, Protein Charge and Isoelectric Point Calculator [Internet]. v1.0. GitHub; 2024. Available from: https://github.com/mcathcarth/Protein_charge_pI_calculator
